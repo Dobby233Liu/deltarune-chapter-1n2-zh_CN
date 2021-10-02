@@ -1,5 +1,5 @@
 Main small font - 8-Bit Operator JVE -> SimSun
-Main big font - 8-Bit Operator JVE -> FZ Pixel
+Main big font - 8-Bit Operator JVE -> FZ (basic ?) Pixel
 Battle dialogue bubbles - DotumChe -> SimHei
 Sans - Comic Sans -> FZ Kids Simplified
-Character names - Custom -> SimSun
+Character names - Custom -> SimSun???
