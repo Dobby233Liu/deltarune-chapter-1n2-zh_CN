@@ -2,7 +2,7 @@ Main small font - 8-Bit Operator JVE -> SimSun
 Main big font - 8-Bit Operator JVE -> FZ (basic ?) Pixel or a bigger/scaled SimSun
 Battle dialogue bubbles - DotumChe -> SimHei (obviously)
 Sans - Comic Sans -> FZ Kids Simplified
-Character names - Custom -> SimSun???
+Character names - Custom -> SimSun??? Or look down
 Berdly flashback - What the fuck -> Zpix/Mplus extended/Source Sans Han
 
 Also look at Pixel Operator and Japanese fonts
