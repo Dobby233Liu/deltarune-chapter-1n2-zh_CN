@@ -7,7 +7,7 @@ with open("lang_en.json", "r") as f:
 out = open("hyperlink_blocked.txt", "w")
 
 for txtc, txt in j.items():
-    txtl = txt.lower
+    txtl = txt.lower()
     if "hyperlink" in txtl or "blocked" in txtl:
         out.write("%s\n%s\n\n" % txtc, txt)
 
