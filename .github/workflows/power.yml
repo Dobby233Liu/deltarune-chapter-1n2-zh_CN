@@ -1,0 +1,22 @@
+name: Python
+on: [push]
+
+jobs:
+  build-linux:
+    runs-on: ubuntu-latest
+    strategy:
+      max-parallel: 5
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+    - name: Test with pytest
+      run: |
+        wget https://gist.githubusercontent.com/InvoxiPlayGames/7aa62674f382feaf71c39f1888317ccb/raw/f857b9bc349d491d3dc9ee62136ff56743a76a1f/lang_en.json 
+        python power.py
+    - uses: actions/upload-artifact@v2
+      with:
+        path: hyperlink_blocked.txt
